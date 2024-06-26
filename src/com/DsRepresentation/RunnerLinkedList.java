@@ -11,9 +11,12 @@ public class RunnerLinkedList {
 		ls.addLast(6);
 		ls.addFirst(1);
 		//ls.display();
-		ls.delete();
+//		ls.delete();
 		//ls.display();
-		ls.delete();
+//		ls.delete();
+		ls.display();
+		ls.addAtPosition(11, 2);
+		System.out.println();
 		ls.display();
 
 	}

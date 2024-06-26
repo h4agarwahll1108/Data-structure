@@ -8,5 +8,10 @@ public class NodeSingle {
 		this.value = value;
 		this.next = next;
 	}
+	
+	public NodeSingle(Object value) {
+		this.value = value;
+		this.next = null;
+	}
 
 }
